@@ -16,11 +16,11 @@ metadata:
     - **Reusable Components**: Copy-paste ready code snippets
     
     ## 📂 Project Structure
-```
+    ```
     /src
       /guards         - Authentication and validation guards
       /utils          - utilities
-```
+    ```
     
     ## 🔧 Tech Stack
     - NestJS 9.x
