@@ -1,0 +1,76 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: multi-component-backstage-repo
+  title: Multi Component Backstage Demo Repository
+  description: |
+    # 📚 Repository Overview
+    
+    This repository demonstrates Backstage's flexibility in cataloging components at different levels.
+    
+    ## 🏗️ Architecture
+    
+    This repo contains:
+    - **NestJS Guards**: Security and validation guards
+    - **Shopify Integrations**: Various Shopify-related utilities
+    - **Reusable Components**: Copy-paste ready code snippets
+    
+    ## 📂 Project Structure
+```
+    /src
+      /guards         - Authentication and validation guards
+      /utils          - utilities
+```
+    
+    ## 🔧 Tech Stack
+    - NestJS 9.x
+    - TypeScript 5.x
+    - Node.js 18+
+    
+    ## 📖 Documentation Approach
+    
+    This repository uses a **dual-level documentation strategy**:
+    
+    ### 1. Repository Level (This Document)
+    - Overall architecture and design decisions
+    - Development guidelines
+    - Deployment instructions
+    
+    ### 2. Component Level (Individual Components)
+    - Specific implementation details
+    - Copy-paste ready code
+    - Usage examples
+    
+    ## 🚀 Getting Started
+```bash
+    npm install
+    npm run start:dev
+```
+    
+    ## 🔗 Related Resources
+    - [Contributing Guidelines](./CONTRIBUTING.md)
+    - [Architecture Decision Records](./docs/adr)
+    - [API Documentation](./docs/api)
+  tags:
+    - repository
+    - nestjs
+  labels:
+    documentation-level: "repository"
+    component-type: "container"
+  annotations:
+    github.com/project-slug: danisg96/multi-component-backstage
+    backstage.io/source-location: url:https://github.com/danisg96/multi-component-backstage
+  links:
+    - url: https://github.com/danisg96/multi-component-backstage
+      title: GitHub Repository
+      icon: github
+    - url: https://github.com/danisg96/multi-component-backstage/blob/main/README.md
+      title: README
+      icon: docs
+    - url: https://github.com/danisg96/multi-component-backstage/issues
+      title: Issues
+      icon: bug_report
+spec:
+  type: service  # Il tipo della repo nel suo insieme
+  lifecycle: experimental
+  owner: backend
