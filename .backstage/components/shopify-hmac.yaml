@@ -24,5 +24,6 @@ metadata:
     - guard
 spec:
   type: library
+  lifecycle: stable
   subtype: guard
   owner: guest
