@@ -24,7 +24,7 @@ metadata:
     - guard
   annotations:
     github.com/project-slug: danisg96/multi-component-backstage
-    backstage.io/techdocs-ref: dir:../docs/shopify-hamc
+    backstage.io/techdocs-ref: dir:../docs/shopify-hmac
     demo.backstage.io/techdocs-builder: local
 spec:
   type: library
