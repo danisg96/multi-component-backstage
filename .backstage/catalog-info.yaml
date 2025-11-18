@@ -42,10 +42,10 @@ metadata:
     - Usage examples
     
     ## 🚀 Getting Started
-```bash
+    ```bash
     npm install
     npm run start:dev
-```
+    ```
     
     ## 🔗 Related Resources
     - [Contributing Guidelines](./CONTRIBUTING.md)
