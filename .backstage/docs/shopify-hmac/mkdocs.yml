@@ -1,7 +1,7 @@
 site_name: 'NestJS Shopify Proxy Guard Documentation'
 nav:
   - Introduction: index.md
-  - Guard Code: guard.md
+  - Guard Code: code.md
   - Usage Examples: usage.md
 
 docs_dir: docs
