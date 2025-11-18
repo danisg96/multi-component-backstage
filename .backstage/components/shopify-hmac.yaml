@@ -22,10 +22,10 @@ metadata:
     - authentication
     - nestjs
     - guard
-annotations:
-  github.com/project-slug: danisg96/multi-component-backstage
-  backstage.io/techdocs-ref: dir:../docs/shopify-hamc
-  demo.backstage.io/techdocs-builder: local
+  annotations:
+    github.com/project-slug: danisg96/multi-component-backstage
+    backstage.io/techdocs-ref: dir:../docs/shopify-hamc
+    demo.backstage.io/techdocs-builder: local
 spec:
   type: library
   lifecycle: stable
