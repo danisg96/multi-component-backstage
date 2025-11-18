@@ -26,4 +26,4 @@ spec:
   type: library
   lifecycle: stable
   subtype: guard
-  owner: guest
+  owner: backend
