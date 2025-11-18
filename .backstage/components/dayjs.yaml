@@ -20,5 +20,6 @@ metadata:
     - date
 spec:
   type: library
+  lifecycle: stable
   subtype: utility
   owner: guest
