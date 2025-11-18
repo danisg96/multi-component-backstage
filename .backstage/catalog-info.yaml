@@ -7,4 +7,5 @@ metadata:
 spec:
   type: file
   targets:
-    - ./components/*.yaml  # Importa tutti i componenti
+    - ./components/dayjs.yaml
+    - ./components/shopify-hmac.yaml
