@@ -5,7 +5,6 @@ metadata:
   name: project-test-components
   description: All reusable components and snippets from Project Test
 spec:
-  type: file
   targets:
     - ./components/dayjs.yaml
     - ./components/shopify-hmac.yaml
