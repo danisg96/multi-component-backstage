@@ -1,0 +1,10 @@
+# Questo è solo un indice che punta a tutti i componenti
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: project-test-components
+  description: All reusable components and snippets from Project Test
+spec:
+  type: file
+  targets:
+    - ./components/*.yaml  # Importa tutti i componenti
