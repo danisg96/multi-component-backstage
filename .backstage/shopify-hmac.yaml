@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shopify-hmac-validator
+  title: Shopify HMAC Validator
+  description: |
+    HMAC guard validation for Shopify proxied routes in a NestJS backend.
+    
+    📍 **Location**: `src/guards/shopifyproxy.guard.ts`
+    🏷️ **Type**: Nestjs Auth Guard
+    
+    ## 📋 Core Functionality
+    - Validates incoming requests from Shopify proxy using HMAC signatures.
+    - Ensures data integrity and authenticity of requests.
+    - Rejects requests with invalid or missing HMAC signatures.
+
+    ## 🔧 NestJS Integration
+    See source for full Guard implementation
+  tags:
+    - snippet
+    - shopify
+    - authentication
+    - nestjs
+    - guard
+spec:
+  type: library
+  subtype: guard
+  owner: guest
