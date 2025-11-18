@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dayjs-utility
+  title: Day.js Utility
+  description: |
+    Dayjs wrapper to configure locale and timezone settings for consistent date handling across the application.
+
+    📍 **Location**: `src/utils/dayjs.util.ts`
+    🏷️ **Type**: Utility
+
+    ## 📋 Core Functionality
+    - Configures Day.js with desired locale (e.g., 'en', 'fr').
+    - Sets default timezone for date operations.
+
+    ## 🔧 TypeScript Integration
+    See source for full Utility implementation
+  tags:
+    - utility
+    - date
+spec:
+  type: library
+  subtype: utility
+  owner: guest
