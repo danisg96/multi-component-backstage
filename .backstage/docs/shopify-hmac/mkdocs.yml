@@ -3,3 +3,5 @@ nav:
   - Introduction: index.md
   - Guard Code: guard.md
   - Usage Examples: usage.md
+
+docs_dir: docs
