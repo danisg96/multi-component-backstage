@@ -6,5 +6,6 @@ metadata:
   description: All reusable components and snippets from Project Test
 spec:
   targets:
-    - ./components/dayjs.yaml
-    - ./components/shopify-hmac.yaml
+    - ./catalog-info.yaml
+    - ./catalog-components.yaml
+    - ./catalog-system.yaml
