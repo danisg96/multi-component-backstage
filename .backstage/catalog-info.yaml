@@ -1,4 +1,14 @@
 apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: project-test-components
+  description: All reusable components and snippets from Project Test
+spec:
+  targets:
+    - ./catalog-components.yaml
+    - ./catalog-system.yaml
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: multi-component-backstage-repo
