@@ -8,14 +8,3 @@ metadata:
     These components are independent from the main repository documentation.
 spec:
   owner: platform-team
-
----
-# Domain opzionale per organizzazione superiore
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: shared-utilities
-  title: Shared Utilities Domain
-  description: Cross-project reusable utilities
-spec:
-  owner: platform-team
